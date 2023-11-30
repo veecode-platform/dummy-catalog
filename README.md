@@ -1,4 +1,4 @@
-# Platform default Template Repository
+# Platform Default Template Repository
 
 This repository contains default templates for Platform devportal.
 
@@ -14,3 +14,6 @@ The repository includes the following templates:
 
 To use these templates, clone this repository and configure it in your devportal catalog.
 
+## Documentation
+
+For more information about using these templates and configuring them in your devportal catalog, please refer to the [Platform Documentation](https://docs.platform.vee.codes/).
