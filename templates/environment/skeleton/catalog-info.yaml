@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Environment
+metadata:
+  name: ${{values.componentId | dump}}
+  {%- if values.description %}
+  description: ${{values.description | dump}}
+  {%- endif %}
+  annotations:
+    github.com/project-slug: ${{ values.repoUrl }}
+    backstage.io/techdocs-ref: dir:.
+  environment: {}
+spec:
+  type: service
+  lifecycle: development
+  owner: ${{values.owner | dump}}
