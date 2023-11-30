@@ -84,7 +84,6 @@ spec:
           owner: ${{ parameters.owner }}
           repoUrl: ${{ parameters.repoUrl | parseRepoUrl | pick('owner') }}/${{ parameters.repoUrl | parseRepoUrl | pick('repo') }}
           host: ${{ parameters.repoUrl | parseRepoUrl | pick('host') }}
-          vpc: ${{ parameters.environmentResource | parseJSON | pick('vpc') }}
           environment_name: ${{ parameters.environmentResource | parseJSON | pick('name') }}
 
 
