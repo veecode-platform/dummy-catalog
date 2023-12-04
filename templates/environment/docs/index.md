@@ -1,8 +1,8 @@
-# Dummy Cluster
+# Dummy Environment
 
 ## Getting started
 
-This repository contains a dummy template for a "Cluster".
+This repository contains a dummy template for an "Environment".
 
 A typical setup organizes entities under an "Environment" --> "Cluster" --> "Project" hierarchy. This is a starting point to implement from scratch new templates of your own design.
 

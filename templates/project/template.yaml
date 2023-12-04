@@ -2,8 +2,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: default-project-template
-  title: Default Project
-  description: Project Template Default.
+  title: Dummy Project
+  description: Dummy Project Template
   annotations:
     backstage.io/techdocs-ref: dir:.
   tags:
@@ -56,7 +56,7 @@ spec:
         repoUrl:
           title: Repository Location
           type: string
-          description: Choose a location to create the RDS Pipeline
+          description: Choose a location to create the new Project repository
           ui:field: RepoUrlPlatform
           ui:options:
             allowedHosts:

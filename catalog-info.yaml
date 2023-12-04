@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: platform-devportal-dummy-catalog
-  description: Base Template for Platform Devportal
+  description: Base Dummy Templates for VeeCode Platform Devportal
 spec:
   targets:
     - ./templates/*.yaml

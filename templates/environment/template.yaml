@@ -2,8 +2,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: default-environment-template
-  title: Default Environment
-  description: Environment Template Default.
+  title: Dummy Environment
+  description: Dummy Environment Template
   annotations:
     backstage.io/techdocs-ref: dir:.
   tags:
@@ -45,7 +45,7 @@ spec:
         repoUrl:
           title: Repository Location
           type: string
-          description: Choose a location to create the RDS Pipeline
+          description: Choose a location to create the new Environment repository
           ui:field: RepoUrlPlatform
           ui:options:
             allowedHosts:
