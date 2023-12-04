@@ -28,7 +28,7 @@ helm upgrade devportal --install veecode-platform/devportal \
   --set "platform.behaviour.mode=demo" \
   --set "appConfig.app.baseUrl=https://devportal-${NAMESPACE}.cloud.okteto.net" \
   --set "appConfig.backend.baseUrl=https://devportal-${NAMESPACE}.cloud.okteto.net"  \
-  --set "locations[0].type=url,locations[0].target=https://github.com/andrevtg/dummy-catalog/blob/main/catalog-info.yaml"
+  --set "locations[0].type=url,locations[0].target=https://github.com/veecode-platform/dummy-catalog/blob/main/catalog-info.yaml"
 ```
 
 A read-only DevPortal instance will be available at `https://devportal-${NAMESPACE}.cloud.okteto.net`.
