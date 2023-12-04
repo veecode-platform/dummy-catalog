@@ -1,8 +1,10 @@
-# Cluster Default
+# Dummy Cluster
 
 ## Getting started
 
-Start writing your documentation by adding more markdown (.md) files to this folder (/docs) or replace the content in this file.
+This repository contains a dummy template for a "Cluster".
+
+A typical setup organizes entities under an "Environment" --> "Cluster" --> "Project" hierarchy. This is a starting point to implement from scratch new templates of your own design.
 
 ## Table of Contents
 

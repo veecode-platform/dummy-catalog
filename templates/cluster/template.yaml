@@ -2,8 +2,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: default-cluster-template
-  title: Default Cluster 
-  description: Provision Cluster
+  title: Dummy Cluster 
+  description: Dummy Cluster Template
   annotations:
     backstage.io/techdocs-ref: dir:.
   tags:
@@ -14,7 +14,7 @@ spec:
   owner: veecode/platform
   type: devops
   parameters:
-    - title: Project Configuration
+    - title: Cluster Configuration
       required:
         - componentId
         - owner
@@ -56,7 +56,7 @@ spec:
         repoUrl:
           title: Repository Location
           type: string
-          description: Choose a location to create the EKS Cluster Pipeline
+          description: Choose a location to create the new Cluster repository
           ui:field: RepoUrlPlatform
           ui:options:
             allowedHosts:
