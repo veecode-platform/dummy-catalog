@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: default-project-template
+  name: dummy-project-template
   title: Dummy Project
   description: Dummy Project Template
   annotations:
@@ -9,7 +9,7 @@ metadata:
   tags:
     - platform-templates
     - project
-    - default
+    - dummy
 spec:
   owner: veecode/platform
   type: service

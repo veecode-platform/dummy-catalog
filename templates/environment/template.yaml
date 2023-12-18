@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: default-environment-template
+  name: dummy-environment-template
   title: Dummy Environment
   description: Dummy Environment Template
   annotations:
